@@ -1,0 +1,26 @@
+<header id="title-block-header">
+<h1 class="quarto-title">$title$</h1>
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+
+$endif$
+
+
+$for(author)$
+<p class="author">$author$</p>
+$endfor$
+
+$if(date)$
+<p class="date">$date$</p>
+$endif$
+$if(abstract)$
+<div class="abstract">
+<div class="abstract-title">$abstract-title$</div>
+$abstract$
+</div>
+$endif$
+
+$if(launch_buttons.colab)$
+<a href="https://colab.research.google.com/github/$launch_buttons.colab$"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="img-fluid figure-img"></a>
+$endif$
+</header>
