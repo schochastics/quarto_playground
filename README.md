@@ -22,6 +22,6 @@ Trying to implement a launch button which allows to run rendered ipynb files to 
 
 This feature is impemented in [jupyterbooks](https://jupyterbook.org/en/stable/intro.html)
 
-[x] Extend title-block.html and add a yaml variable launch_buttons
+[x] Extend title-block.html and add a yaml variable launch_buttons  
 [ ] Via a ipynb-filter
 
