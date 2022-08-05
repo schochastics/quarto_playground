@@ -25,5 +25,5 @@ This feature is impemented in [jupyterbooks](https://jupyterbook.org/en/stable/i
 Ideal case would be that the button is automatically added whenever a ipynb is rendered. 
 
 [x] Extend title-block.html and add a yaml variable launch_buttons  
-[ ] Via a ipynb-filter
+[ ] Via a [ipynb-filter](https://quarto.org/docs/extensions/nbfilter.html)
 
